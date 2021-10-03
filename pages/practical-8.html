@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-8</title>
+</head>
+<style>
+    #nav {
+        background-color: grey;
+        overflow: auto;
+        padding: 9px 20px;
+
+    }
+
+    .item {
+        float: left;
+        list-style: none;
+        padding: 20px 60px;
+    }
+
+    .item a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    nav::before {
+        content: "";
+        color: white;
+        background: url('./Images/pic1.jpeg') no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 85%;
+        width: 99%;
+        z-index: -1;
+        margin-top: 130px;
+        margin-left: 10px;
+    }
+
+    #content {
+        margin: 70px 40px;
+        color: white;
+        font-size: 50px;
+        font-family: sans-serif;
+    }
+
+    .item a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    #team {
+        padding-top: 500px;
+        height: 30px;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .logo {
+
+        float: left;
+        height: 200px;
+        padding: 20px 80px;
+        border-radius: 90%;
+    }
+
+    #head {
+        text-align: center;
+    }
+
+    .about {
+        border: 2px solid black;
+        margin-right: 900px;
+        background-color: grey;
+        color: white;
+    }
+
+    .projects {
+        height: 200px;
+        width: 400px;
+    }
+
+    .abouts {
+        display: inline-flex;
+    }
+
+    .left {
+        width: 50%;
+        height: 500px;
+        background-color: lightgray;
+        margin-top: 20px;
+    }
+
+    .right1 {
+        width: 700px;
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 152px;
+        background-image: url("./Images/pro1.jpg");
+    }
+
+    .right2 {
+        width: 700px;
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 152px;
+        background-image: url("./Images/pro2.jpg");
+    }
+
+    .right3 {
+        width: 700px;
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 152px;
+        background-image: url("./Images/pro3.jpg");
+    }
+
+    #tech {
+        text-align: center;
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    .box {
+        border: 2px solid none;
+        height: 430px;
+        width: 300px;
+        float: left;
+        padding: 10px;
+        margin: 10px 25px;
+        background-color: rgb(209, 204, 204);
+    }
+
+    .box h2 {
+        text-align: center;
+    }
+
+    .box p {
+        padding-bottom: 10px;
+        color: white;
+    }
+    .img {
+        width: 300px;
+        border-radius: 9px;
+        margin-bottom: 2px;
+    }
+    #img1 {
+        height: 170px;
+        width: 300px;
+        border-radius: 9px;
+        margin-bottom: 2px;
+    }
+    .box a {
+        margin: 40px 100px;
+        padding: 2px;
+        font-size: 20px;
+        border: 2px solid none;
+        background-color: red;
+        color: black;
+        text-decoration: none;
+        border-radius: 4px;
+        text-align: center;
+        color: honeydew;
+    }
+    .contact {
+        background-color: violet;
+        width: 100%;
+        height: 90px;
+        text-align: center;
+        padding: 10px;
+    }
+</style>
+<body>
+    <header>
+        <nav id="nav">
+            <ul>
+                <li class="item"><a href="#nav">HOME</a></li>
+                <li class="item"><a href="#about">ABOUT US</a></li>
+                <li class="item"><a href="#team">TEAM</a></li>
+                <li class="item"><a href="#tech">TECHNOLOGIES</a></li>
+                <li class="item"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div id="content"><b>PRACTICAL-8</b></div>
+    </header>
+
+    <section>
+        <h1 id="team"><b>Team Members</b></h1>
+        <img class="logo" src="./Images/logo1.jpeg" alt="">
+        <img class="logo" src="./Images/logo2.jpeg" alt="">
+        <img class="logo" src="./Images/logo3.jpeg" alt="">
+        <img class="logo" src="./Images/logo4.jpeg" alt="">
+    </section>
+
+    <section id="about">
+        <div id="About us">
+            <h1 style="text-align: center;margin-top:50px;font-size: 40px;">About us</h1>
+        </div>
+        <div class="abouts">
+            <div class="left">
+                <h1 style="color: white;margin-left: 20px;margin-top: 10px;">About Project</h1>
+                <p style="padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt architecto
+                    aliquam rem
+                    laborum libero omnis
+                    cumque commodi enim vel est, nihil minus dignissimos ab doloremque blanditiis at laudantium iste
+                    ipsa molestias
+                    et dolores debitis. Porro tempora nisi blanditiis cum rem esse, odit sit provident iusto modi.
+                    Itaque
+                    perferendis eaque delectus nam quod illum eveniet similique ducimus. Impedit ea debitis,
+                    consequuntur rem modi
+                    delectus! Dolore minima voluptatibus consectetur ad accusantium aut sapiente voluptatum nostrum
+                    blanditiis ex,
+                    sit illo dolorum veniam quos iure ipsam doloribus hic architecto velit voluptas temporibus commodi!
+                    Blanditiis
+                    voluptatem corporis incidunt fugit expedita veritatis delectus tempore officiis, aperiam dicta iusto
+                    aliquam
+                    adipisci aliquid sequi nisi esse! Sint odio quas quidem dolor non reprehenderit iusto deserunt
+                    doloremque id
+                    adipisci voluptatem, delectus porro minima nihil unde eos, cupiditate animi ex dolores ab. Fugiat at
+                    soluta
+                    minus quibusdam voluptate vero aliquam consequuntur, laboriosam sequi neque numquam alias. Explicabo
+                    optio
+                    itaque quaerat, nam dolore, accusantium obcaecati placeat voluptatem libero eligendi nemo quo
+                    voluptates. Alias
+                    ab, voluptatibus natus repellat dolorum cum quisquam quam incidunt quod nihil non officiis dolore
+                    enim veniam
+                    provident eius reiciendis commodi laudantium consectetur asperiores, unde in nulla, aperiam harum?
+                    Harum quam
+                    neque placeat alias? Animi ex magnam aliquid impedit modi exercitationem odio provident sapiente
+                    iure hic!
+                    Dolores natus eaque optio necessitatibus reiciendis distinctio, quibusdam atque iure nam quos beatae
+                    ducimus
+                    illum. Officiis enim delectus officia assumenda fugiat tempora architecto, ipsam eum molestiae nisi
+                    aspernatur
+                    praesentium quis iure cupiditate voluptatem dignissimos provident excepturi mollitia ratione, magnam
+                    inventore
+                    ad possimus suscipit ab. Quasi totam in rem, nihil error exercitationem odit doloribus assumenda
+                    aliquam rerum
+                    aliquid nostrum tempora aspernatur voluptas provident architecto fuga placeat maxime corporis
+                    perferendis
+                    soluta? Nesciunt, eius porro eligendi, temporibus iure rerum delectus provident debitis voluptas ex,
+                    sed modi
+                    architecto id molestiae odio ratione. Dolores nam aspernatur veniam itaque ipsa consequuntur ab
+                    reprehenderit
+                    nulla illum ex quo perferendis, quis alias, doloribus, </p>
+            </div>
+            <div>
+                <div class="right1">
+                    <h1 style="text-align: center;">Project-1</h1>
+                </div>
+                <div class="right2">
+                    <h1 style="text-align: center;">Project-2</h1>
+                </div>
+                <div class="right3">
+                    <h1 style="text-align: center;">Project-3</h1>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div id="tech"><b>Technologies Used</b></div>
+        <div class="box">
+            <img id="img1" src="./Images/html.png" alt="">
+            <h2>Introduction to HTML</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat debitis quae ratione? Maxime, totam
+                inventore! Nihil quasi vitae in, soluta architecto aut dolorum dolor, nostrum exercitationem itaque
+                eveniet odio
+                perspiciatis facilis quos aliquam tenetur natus, commodi repudiandae eaque! </p>
+            <a href="./read.html">Read More</a>
+        </div>
+        <div class="box">
+            <img class="img" src="./Images/css.png" alt="">
+            <h2>Introduction to CSS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat debitis quae ratione? Maxime, totam
+                inventore! Nihil quasi vitae in, soluta architecto aut dolorum dolor, nostrum exercitationem itaque
+                eveniet odio
+                perspiciatis facilis quos aliquam tenetur natus, commodi repudiandae eaque! </p>
+            <a href="./read.html">Read More</a>
+        </div>
+        <div class="box">
+            <img class="img" src="./Images/jquery.png" alt="">
+            <h2>Introduction to Jquery</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat debitis quae ratione? Maxime, totam
+                inventore! Nihil quasi vitae in, soluta architecto aut dolorum dolor, nostrum exercitationem itaque
+                eveniet odio
+                perspiciatis facilis quos aliquam tenetur natus, commodi repudiandae eaque! </p>
+            <a href="./read.html">Read More</a>
+        </div>
+        <div class="box">
+            <img class="img" src="./Images/bootstrap.png" alt="">
+            <h2>Introduction to Bootstrap</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat debitis quae ratione? Maxime, totam
+                inventore! Nihil quasi vitae in, soluta architecto aut dolorum dolor, nostrum exercitationem itaque
+                eveniet odio
+                perspiciatis facilis quos aliquam tenetur natus, commodi repudiandae eaque! </p>
+            <a href="./read.html">Read More</a>
+        </div>
+    </section>
+
+
+    <div id="contact">
+        <h1 style="text-align: center ;">Contact</h1>
+        <div class="contact">
+            <div>
+                <p>Website Template for Practical-8 &copy; <a href="https://www.beta-labs.in">Beta-Labs</a> </p>
+            </div>
+            <div><a href="#nav">Back to top</a></div>
+        </div>
+    </div>
+</body>
+</html>
