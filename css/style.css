@@ -1,6 +1,20 @@
-h1
-{
-    text-align: center;
-    color: red;
-    background-color: bisque;
+body{
+    background-color:rgb(211, 227, 233);
+}
+
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 205px;
+}
+
+
+th,td{
+    padding: 10px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
 }
